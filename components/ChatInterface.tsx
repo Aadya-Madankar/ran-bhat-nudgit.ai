@@ -32,7 +32,7 @@ const ChatInterface: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: 'initial-greeting',
-      text: "Hey! Rani here. 💕 So glad you slid into my DMs... What's the plan? 😉",
+      text: "",
       sender: 'bot'
     }
   ]);
